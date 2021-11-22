@@ -298,19 +298,13 @@ section .title::after{
 }
 .skills .skills-content .left a{
     display: inline-block;
-    background:#CE8147;
+    background:none;
     color: #fff;
-    font-size: 10px;
+    font-size: 20px;
     font-weight: 200;
     padding: 20px 30px;
     margin-top: 20px;
-    border-radius: 200px;
-    border: 2px solid white;
-    transition: all 0.3s ease;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 200px;
-    -ms-border-radius: 200px;
-    -o-border-radius: 200px;
+    text-align: center;
 }
 .Knowledge{
     color: #CE8147;
@@ -318,6 +312,15 @@ section .title::after{
 .skills .skills-content .left a:hover{
     color: #CE8147;
     background: none;
+}
+
+.skills img {
+    width:100%;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
 }
 
 
@@ -499,6 +502,14 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
+    .skills img {
+        width:100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        }
 }
 
 @media (max-width: 991px) {
@@ -569,6 +580,15 @@ footer span a:hover{
         width: 100%;
         margin-bottom: 35px;
     }
+    .skills img {
+        width:100%;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+    }
+    
 }
 
 @media (max-width: 690px) {
@@ -587,6 +607,14 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
+    .skills img {
+        width:100%;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+        }
 }
 
 @media (max-width: 500px) {
@@ -618,4 +646,14 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+
+    .skills img {
+    width:100%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    }
+
 }
