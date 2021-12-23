@@ -7,7 +7,7 @@
 
 > El repositorio consiste en un portafolio propio usando Javascript, HTML5 y CSS3. Cuenta con la posibilidad de ser responsive, es decir adaptable a cualquier pantalla.</br>
 
-## 🦁 Versión de React
+## 🦁 Versión de Javascript
 
 ```
 Javascript: ES12
