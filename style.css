@@ -1,11 +1,13 @@
 /*  import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;}
+    font-family: 'Lato', sans-serif;
+}
 
 html {
     scroll-behavior: smooth;
@@ -179,17 +181,17 @@ section .title::after {
 
 /* home section styling */
 .home {
-   display: flex;
-   background-color: #75909e;
-   height: 100vh;
-   color: #fff;
-   min-height: 500px;
-   background-size: contain;
-   background-image: url("/images/programming-4532296_1280.jpg");
-   background-attachment: fixed;
-   background-repeat:no-repeat;
-   background-size: cover;
-  
+    display: flex;
+    background-color: #75909e;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    background-size: contain;
+    background-image: url("/images/programming-4532296_1280.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
@@ -261,46 +263,65 @@ section .title::after {
 }
 
 .about .about-content .left img {
+    flex: inherit;
     height: 400px;
     width: 400px;
     object-fit: cover;
-    border-radius: 250px;
-    -webkit-border-radius: 250px;
-    -moz-border-radius: 250px;
-    -ms-border-radius: 250px;
-    -o-border-radius: 250px;
-    flex: inherit;
+    border-radius: 350px;
+    -webkit-border-radius: 350px;
+    -moz-border-radius: 350px;
+    -ms-border-radius: 350px;
+    -o-border-radius: 350px;
 }
 
 .about .about-content .right {
     width: 55%;
 }
 
-.about .about-content .right .text {
-    font-size: 25px;
-    font-weight: 100;
+.about .about-content .right .text1 {
     margin-bottom: 10px;
-    text-align: center;
-}
-.about .about-content .right .text-tec {
-    margin-top: 2%;
-    font-size: 30px;
-    font-weight: 200;
-    margin-bottom: 10px;
-    text-align: center;
+    font-size: 20px;
+    font-weight:normal;
+    text-align: left;
 }
 
-.about .about-content .right .text-len {
-    font-size: 18px;
-    font-weight: 100;
+.about .about-content .right .text2 {
+    margin-bottom:10px;
+    font-size: 25px;
+    font-weight:bold;
+    text-align: left;
+}
+
+.about .about-content .right .text3 {
+    font-size: 21px;
+    font-weight:normal;
+    margin-bottom:10px;
+    text-align: left;
+}
+
+.about .about-content .right .text4 {
+    margin-top: 2%;
+    font-size: 21px;
+    font-weight: 200;
     margin-bottom: 10px;
-    text-align: center;
-    text-shadow: #111;
+    text-align: left;
+}
+
+.about .about-content .right .cont-skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.about .about-content .right .img-skills {
+   padding: 0 20px 20px;
 }
 
 .about .about-content .right .text span {
     color: #93B5C6;
- 
+
 }
 
 .about .about-content .right p {
@@ -316,17 +337,15 @@ section .title::after {
     font-size: 25px;
     font-weight: 150;
     padding: 10px 30px;
-
     margin: auto;
-    border-radius: 100px;
+    border-radius: 10px;
     border: 5px solid #93B5C6;
     transition: all 0.3s ease;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
-    -ms-border-radius: 100px;
-    -o-border-radius: 100px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
     justify-content: center;
-
 }
 
 .about .about-content .right a:hover {
@@ -338,6 +357,20 @@ section .title::after {
 #skills {
     background-color: #75909e;
     justify-content: center;
+}
+
+.skills a img {
+    border-radius: 2%;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    -ms-border-radius:;
+    -o-border-radius:;
+    width: 100%;
+}
+
+
+.skills img:hover {
+    box-shadow: 1px 1px 15px rgb(78, 78, 78);
 }
 
 .skills .skills-content .column {
@@ -358,12 +391,12 @@ section .title::after {
 .skills .skills-content .left a {
     display: inline-block;
     background: none;
-    color: #fff;
-    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
     font-weight: 200;
-    padding: 20px 30px;
-    margin-top: 20px;
+    padding: 40px 40px;
     text-align: center;
+    background-color: #75919e;
 }
 
 .Knowledge {
@@ -373,63 +406,13 @@ section .title::after {
 .skills .skills-content .left a:hover {
     color: #93B5C6;
     background: none;
-    text-shadow:rgb(78, 78, 78) ;
+    text-shadow: rgb(63, 63, 63);
 }
 
-.skills img {
-    width: 100%;
-    border-radius: 45px;
-    -webkit-border-radius: 45px;
-    -moz-border-radius: 45px;
-    -ms-border-radius: 45px;
-    -o-border-radius: 45px;
- 
-   
-}
-
-.skills img:hover {
-    box-shadow: 1px 1px 15px rgb(78, 78, 78) ;
-   
-  
-    
-}
 
 .text-before-img {
     text-align: center;
     align-items: center;
-}
-
-
-
-
-.contenedor {
-    width: 85%;
-    margin: auto;
-    padding: 20px 0;
-    display: flex;
-
-}
-
-.contenedor-conciertos {
-    width: 100%;
-    display: flex;
-    margin-top: -50px;
-
-}
-
-.card {
-    padding: 10px;
-    margin: auto;
-    position: relative;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-    min-height: 50PX;
 }
 
 
@@ -638,30 +621,59 @@ footer span a:hover {
 
 
 /* responsive media query start */
+
 @media (max-width: 1104px) {
     .about .about-content .left img {
         height: 350px;
         width: 350px;
     }
 
-    .skills img {
+    .skills a img {
+        border-radius: 2%;
+        -webkit-border-radius:;
+        -moz-border-radius:;
+        -ms-border-radius:;
+        -o-border-radius:;
         width: 100%;
-        border-radius: 10px;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
     }
 
-   
+    
+.about .about-content .left img {
+    flex: inherit;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 350px;
+    -webkit-border-radius: 350px;
+    -moz-border-radius: 350px;
+    -ms-border-radius: 350px;
+    -o-border-radius: 350px;
+}
+
+.about .about-content .right .cont-skills {
+    width: 100%;
+    margin: 20px;
+    text-align: left;
+    box-shadow:#75919e
+    
+}
+.about .about-content .right .cont-skills {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: left;
+    justify-content: left;
+}
+
+.about .about-content .right .img-skills {
+   padding: 15px 5px 10px;
+}
 }
 
 @media (max-width: 991px) {
     .max-width {
         padding: 0 50px;
     }
-   
-
 }
 
 @media (max-width: 947px) {
@@ -742,12 +754,11 @@ footer span a:hover {
         margin-bottom: 35px;
     }
 
-    .skills img {
+    .skills a img {
         width: 100%;
 
     }
 
- 
 }
 
 @media (max-width: 690px) {
@@ -771,36 +782,10 @@ footer span a:hover {
         width: 100%;
     }
 
-    .skills img {
+    .skills a img {
         width: 100%;
 
     }
-
-
-    .contenedor {
-        width: 20%;
-        margin: auto;
-        padding: 20px 0;
-        display: flex;
-    }
-
-    .contenedor-conciertos {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .card {
-        padding: 10px;
-        margin: auto;
-        position: relative;
-        overflow: hidden;
-        background-size: cover;
-        background-position: center;
-
-    }
- 
-  
 }
 
 @media (max-width: 500px) {
@@ -839,12 +824,9 @@ footer span a:hover {
         line-height: 38px;
     }
 
-    .skills img {
+    .skills a img {
         width: 100%;
-       
-    }
-  
-   
 
+    }
 
 }
