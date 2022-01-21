@@ -94,7 +94,7 @@ section .title::after {
 
 .navbar.sticky {
     padding: 15px 0;
-    background: #93B5C6;
+    background: #F51720;
 }
 
 .navbar .max-width {
@@ -110,7 +110,7 @@ section .title::after {
 }
 
 .navbar .logo a span {
-    color: #93B5C6;
+    color: #F51720;
     transition: all 0.3s ease;
 }
 
@@ -133,7 +133,7 @@ section .title::after {
 }
 
 .navbar .menu li a:hover {
-    color: #93B5C6;
+    color: #F51720;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -152,7 +152,7 @@ section .title::after {
     position: fixed;
     height: 45px;
     width: 42px;
-    background: #93B5C6;
+    background: #F51720;
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -230,20 +230,20 @@ section .title::after {
 }
 
 .home .home-content .text-3 span {
-    color: #93B5C6;
+    color: #F51720;
     font-weight: 500;
 }
 
 .home .home-content a {
     display: inline-block;
-    background: #93B5C6;
+    background: #F51720;
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     font-weight: 400;
     border-radius: 50px;
-    border: 2px solid #93B5C6;
+    border: 2px solid #F51720;
     transition: all 0.3s ease;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -252,7 +252,7 @@ section .title::after {
 }
 
 .home .home-content a:hover {
-    color: #93B5C6;
+    color: #F51720;
     background: none;
 }
 
@@ -265,7 +265,7 @@ section .title::after {
 .about .about-content .left img {
     flex: inherit;
     height: 400px;
-    width: 400px;
+    width: 350px;
     object-fit: cover;
     border-radius: 350px;
     -webkit-border-radius: 350px;
@@ -320,7 +320,7 @@ section .title::after {
 }
 
 .about .about-content .right .text span {
-    color: #93B5C6;
+    color: #F51720;
 
 }
 
@@ -331,7 +331,7 @@ section .title::after {
 
 .about .about-content .right a {
     display: flex;
-    background: #93B5C6;
+    background: #F51720;
     width: 50%;
     color: #fff;
     font-size: 25px;
@@ -339,7 +339,7 @@ section .title::after {
     padding: 10px 30px;
     margin: auto;
     border-radius: 10px;
-    border: 5px solid #93B5C6;
+    border: 5px solid #F51720;
     transition: all 0.3s ease;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -371,13 +371,12 @@ section .title::after {
 }
 
 .skills a img {
-    border-radius: 2%;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
-    width: 100%;
-    
+    border-radius: 35px;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    -o-border-radius: 35px;
+    width: 80%;
 }
 
 
@@ -412,11 +411,11 @@ section .title::after {
 }
 
 .Knowledge {
-    color: #93B5C6;
+    color: #F51720;
 }
 
 .skills .skills-content .left a:hover {
-    color: #93B5C6;
+    color: #F51720;
     background: none;
     text-shadow: rgb(56, 45, 45);
 }
@@ -443,7 +442,7 @@ section .title::after {
 }
 
 .teams .carousel .card:hover {
-    background: #93B5C6;
+    background: #F51720;
 }
 
 .teams .carousel .card .box {
@@ -469,7 +468,7 @@ section .title::after {
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid #93B5C6;
+    border: 5px solid #F51720;
     transition: all 0.3s ease;
 }
 
@@ -488,7 +487,7 @@ section .title::after {
     margin: 0 5px;
     outline: none !important;
     border-radius: 50%;
-    border: 2px solid #93B5C6 !important;
+    border: 2px solid #F51720 !important;
     transition: all 0.3s ease;
 }
 
@@ -499,7 +498,7 @@ section .title::after {
 
 .owl-dot.active,
 .owl-dot:hover {
-    background: #93B5C6 !important;
+    background: #F51720 !important;
 }
 
 /* contact section styling */
@@ -534,7 +533,7 @@ section .title::after {
 
 .contact .contact-content .row i {
     font-size: 25px;
-    color: #93B5C6;
+    color: #F51720;
 }
 
 .contact .contact-content .info .head {
@@ -603,13 +602,13 @@ section .title::after {
     border-radius: 6px;
     cursor: pointer;
     flex-wrap: nowrap;
-    background: #93B5C6;
-    border: 2px solid #93B5C6;
+    background: #F51720;
+    border: 2px solid #F51720;
     transition: all 0.3s ease;
 }
 
 .right form .button-area button:hover {
-    color: #93B5C6;
+    color: #F51720;
     background: none;
 }
 
@@ -623,7 +622,7 @@ footer {
 }
 
 footer span a {
-    color: #93B5C6;
+    color: #F51720;
     text-decoration: none;
 }
 
@@ -678,7 +677,7 @@ footer span a:hover {
 }
 
 .about .about-content .right .img-skills {
-   padding: 15px 5px 10px;
+   padding: 15px 15px 5px;
 }
 }
 
@@ -767,8 +766,12 @@ footer span a:hover {
     }
 
     .skills a img {
+        border-radius: 35px;
+        -webkit-border-radius: 35px;
+        -moz-border-radius: 35px;
+        -ms-border-radius: 35px;
+        -o-border-radius: 35px;
         width: 100%;
-
     }
 
 }
@@ -836,9 +839,6 @@ footer span a:hover {
         line-height: 38px;
     }
 
-    .skills a img {
-        width: 100%;
-
-    }
+   
 
 }
