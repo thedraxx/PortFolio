@@ -196,13 +196,13 @@ section .title::after {
 
 
 .home .max-width .home-content a {
-  margin-top: 30px;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  box-shadow: rgb(19, 19, 19);
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: rgb(19, 19, 19);
 }
 
 .name {
@@ -264,6 +264,7 @@ section .title::after {
 
 /* about section styling */
 
+
 .about .about-content .left {
     width: 45%;
 }
@@ -274,10 +275,7 @@ section .title::after {
     width: 350px;
     object-fit: cover;
     border-radius: 350px;
-    -webkit-border-radius: 350px;
-    -moz-border-radius: 350px;
-    -ms-border-radius: 350px;
-    -o-border-radius: 350px;
+
 }
 
 .about .about-content .right {
@@ -287,21 +285,21 @@ section .title::after {
 .about .about-content .right .text1 {
     margin-bottom: 10px;
     font-size: 20px;
-    font-weight:normal;
+    font-weight: normal;
     text-align: left;
 }
 
 .about .about-content .right .text2 {
-    margin-bottom:10px;
+    margin-bottom: 10px;
     font-size: 25px;
-    font-weight:bold;
+    font-weight: bold;
     text-align: left;
 }
 
 .about .about-content .right .text3 {
     font-size: 21px;
-    font-weight:normal;
-    margin-bottom:10px;
+    font-weight: normal;
+    margin-bottom: 10px;
     text-align: left;
 }
 
@@ -322,7 +320,7 @@ section .title::after {
 }
 
 .about .about-content .right .img-skills {
-   padding: 0 20px 20px;
+    padding: 0 20px 20px;
 }
 
 .about .about-content .right .text span {
@@ -365,7 +363,7 @@ section .title::after {
     justify-content: center;
     display: flex;
     background-color: #75909e;
- 
+
     color: #fff;
     min-height: 500px;
     background-size: contain;
@@ -550,6 +548,13 @@ section .title::after {
     color: #333;
 }
 
+/* Dark mode */
+body.dark .contact .contact-content .info .sub-title  {
+    color: rgb(255, 255, 255);
+}
+
+
+
 .contact .right form .fields {
     display: flex;
 }
@@ -637,6 +642,8 @@ footer span a:hover {
 }
 
 
+
+
 /* responsive media query start */
 
 @media (max-width: 1104px) {
@@ -647,44 +654,44 @@ footer span a:hover {
 
     .skills a img {
         border-radius: 2%;
-        -webkit-border-radius:;
-        -moz-border-radius:;
-        -ms-border-radius:;
-        -o-border-radius:;
+        -webkit-border-radius: ;
+        -moz-border-radius: ;
+        -ms-border-radius: ;
+        -o-border-radius: ;
         width: 100%;
     }
 
-    
-.about .about-content .left img {
-    flex: inherit;
-    height: 250px;
-    width: 250px;
-    object-fit: cover;
-    border-radius: 350px;
-    -webkit-border-radius: 350px;
-    -moz-border-radius: 350px;
-    -ms-border-radius: 350px;
-    -o-border-radius: 350px;
-}
 
-.about .about-content .right .cont-skills {
-    width: 100%;
-    margin: 20px;
-    text-align: left;
-    box-shadow:#75919e
-    
-}
-.about .about-content .right .cont-skills {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: left;
-    justify-content: left;
-}
+    .about .about-content .left img {
+        flex: inherit;
+        height: 250px;
+        width: 250px;
+        object-fit: cover;
+        border-radius: 350px;
+        -webkit-border-radius: 350px;
+        -moz-border-radius: 350px;
+        -ms-border-radius: 350px;
+        -o-border-radius: 350px;
+    }
 
-.about .about-content .right .img-skills {
-   padding: 15px 15px 5px;
-}
+    .about .about-content .right .cont-skills {
+        width: 100%;
+        margin: 20px;
+        text-align: left;
+        box-shadow: #75919e
+    }
+
+    .about .about-content .right .cont-skills {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: left;
+        justify-content: left;
+    }
+
+    .about .about-content .right .img-skills {
+        padding: 15px 15px 5px;
+    }
 }
 
 @media (max-width: 991px) {
@@ -727,6 +734,11 @@ footer span a:hover {
         display: inline-block;
         margin: 20px 0;
         font-size: 25px;
+    }
+
+    .navbar .menu li button {
+        display: inline-block;
+        margin: 20px 0;
     }
 
     .home .home-content .text-2 {
@@ -845,6 +857,6 @@ footer span a:hover {
         line-height: 38px;
     }
 
-   
+
 
 }
