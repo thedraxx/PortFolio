@@ -5,7 +5,7 @@
   </a>
 </p>
 
-> El repositorio consiste en un portafolio propio usando Javascript, HTML5 y CSS3. Cuenta con la posibilidad de ser responsive, es decir adaptable a cualquier pantalla.</br>
+> El repositorio consiste en un portafolio propio usando Javascript - HTML5 - CSS3 - SCSS. Cuenta con la posibilidad de ser responsive, es decir adaptable a cualquier pantalla.</br>
 
 ## 🦁 Versión de Javascript
 
