@@ -688,14 +688,34 @@ footer span a:hover {
     }
 
     .about .about-content .right .img-skills {
-        padding: 15px 15px 5px;
+        padding: 15px 5px 5px;
     }
+
+    .about .about-content .right a {
+        margin-left: 70px;
+        margin-top:35px;
+        display: flex;
+        align-items: center;
+    }
+    
 }
 
 @media (max-width: 991px) {
     .max-width {
         padding: 0 50px;
     }
+
+      .about .about-content .right .img-skills {
+        padding: 15px 5px 5px;
+    }
+
+    .about .about-content .right a {
+        margin-left: 70px;
+        margin-top:35px;
+        display: flex;
+        align-items: center;
+    }
+    
 }
 
 @media (max-width: 947px) {
@@ -772,6 +792,18 @@ footer span a:hover {
         flex: 100%;
     }
 
+
+    .about .about-content .right .img-skills {
+        padding: 15px 5px 5px;
+    }
+
+    .about .about-content .right a {
+        align-items: center;
+        width: 80%;
+    }
+
+
+
     .services .serv-content .card {
         width: calc(50% - 10px);
         margin-bottom: 20px;
@@ -791,6 +823,8 @@ footer span a:hover {
         -o-border-radius: 35px;
         width: 100%;
     }
+
+    
 
 }
 
@@ -819,6 +853,20 @@ footer span a:hover {
         width: 100%;
 
     }
+
+    .about .about-content .right .img-skills {
+        padding: 15px 5px 5px;
+    }
+
+    .about .about-content .right a {
+        margin-left: 15px;
+        margin-top: 55px;
+        display: flex;
+        align-items: center;
+    }
+
+
+    
 }
 
 @media (max-width: 500px) {
@@ -857,6 +905,5 @@ footer span a:hover {
         line-height: 38px;
     }
 
-
-
+    
 }
