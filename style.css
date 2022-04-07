@@ -363,7 +363,6 @@ section .title::after {
     justify-content: center;
     display: flex;
     background-color: #75909e;
-
     color: #fff;
     min-height: 500px;
     background-size: contain;
